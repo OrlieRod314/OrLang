@@ -1,0 +1,4 @@
+int foo = 2;
+string bar = "Orlando Rodriguez";
+
+print(bar);
