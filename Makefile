@@ -12,9 +12,9 @@ $(exec): $(objects)
 
 install:
 	make
-	cp ./Orlang.out /usr/local/bin/hello
+	cp ./OrLang.out /usr/local/bin/orlang
 	
 clean:
-	-rm * .out
+	-rm *.out
 	-rm *.o
 	-rm src/*.o
